@@ -1,0 +1,31 @@
+.wrapper {
+    width: 842px;
+    margin: auto;
+    border: 1px solid blue;
+}
+
+.padded {
+    padding: 10px;
+    border: 1px solid #ff0000;
+    margin:10px;
+}
+
+#header {
+    width: 800px; 
+    
+}
+
+#content {
+    width: 238.6px; float: left;
+    margin-bottom: 20px;
+
+}
+    
+    
+
+#footer {
+    width: 800px; clear: both;
+
+}
+
+
