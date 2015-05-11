@@ -1,0 +1,378 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	position: fixed;
+	top:50%;
+	left:7%;
+	margin-left:-40px;
+	margin-top:-300px;
+	background-color:black;
+	font-family: 'Lato', sans-serif;
+	font-size: 27px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 200px;
+    z-index: 100;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+
+h1:hover {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	line-height: 30px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+
+.nav {
+    letter-spacing: 30px;
+    list-style-type: none;
+    margin-left: 210PX;
+    margin-top: 70px; 
+    position: fixed;
+    z-index: 100;  
+}
+
+.nav ul {
+    list-style: none;
+    
+}
+
+.nav li {
+    display: inline-block;
+    display: inline;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px; 
+    word-spacing: 40px;
+    
+}
+
+.nav a:link, .nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #ff5800;
+}
+
+.heading:hover{
+    -webkit-transition: all .2s;
+    transition: all .2s;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+    border: 1px solid black;
+	position: fixed;
+	top:50%;
+	left:7%;
+	margin-left:-40px;
+	margin-top:-300px;
+	background-color:white;
+	font-family: 'Lato', sans-serif;
+	font-size: 27px;
+	color: black;
+	text-align: center;
+	text-transform: capitalize;
+	vertical-align: middle;
+	line-height: 200px;
+    z-index: 100;
+}
+
+/***** CONTENT *******/
+
+
+p#hotels {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+	font-size: 200px;
+	color: WHITE;
+    margin-top: 34%;
+    margin-left: 10%;   
+}
+
+.oberoi {
+    margin-top: 15%;
+    margin-left: 10%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    max-width: 900px;
+    width: 33%;
+    padding-TOP: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 30px; 
+}
+
+
+p#hotels1 {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+	font-size: 200px;
+	color: white;
+    margin-top: 80%;
+    margin-left: 10%;   
+}
+
+
+.leela {
+    margin-top: 55%;
+    margin-left: 11%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    max-width: 900px;
+    width: 30%;
+    padding-TOP: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 30px; 
+}
+
+p#hotels2 {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+	font-size: 200px;
+	color: white;
+    margin-top: 132%;
+    margin-left: 10%;   
+}
+
+.rambagh {
+    margin-top: 110%;
+    margin-left: 11%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    max-width: 900px;
+    width: 30%;
+    padding-TOP: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 30px; 
+}
+
+
+.link3 {
+    color:white;
+    text-decoration: none;
+    margin-top: 141%;
+    margin-left: 60%;
+    position: absolute;
+    z-index: 2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    max-width: 900px;
+    width: 20%;
+    padding: 10px;
+    background-color: rgba(255, 88, 0, 0.63);
+    border-radius: 100px;
+    text-align: center;
+}
+
+
+/***** MOBILE NAV *******/
+
+.responsive-menu {
+    line-height: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+	display: none;
+    z-index: 5;
+    margin-left: 20px;
+    margin-top: -20px;
+    position: fixed;
+    right: 10px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+}
+ 
+.responsive-menu a {
+    text-decoration: none;
+    color: black;
+    z-index: 5;
+}
+
+.expand {
+	display: block !important;
+    z-index: 5;
+    text-decoration: none;
+}
+
+.hamburger-cross{
+    display: inline-block;
+    position: relative;
+    padding: 18px 8px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 100;
+    }
+
+.navicon{
+    display: block;
+    width: 40px;
+    border-radius: 2px;
+    position: relative;
+    background: black;
+    height: 5px;
+    -webkit-transition: .5s;
+    position: fixed;
+    z-index: 100;
+    right: 100px;
+    }
+
+.navicon::before, .navicon::after{
+      display: block;
+      width: 40px;
+      border-radius: 2px;
+      position: absolute;
+      background: black;
+      height: 5px;
+      content: "";
+     -webkit-transition: .5s;   
+    }
+
+.navicon:before{
+      top: -12px;
+    }
+
+.navicon:after{
+      top: 12px;
+    }
+    
+.open .navicon{
+    -webkit-transition: all .5s;
+    -webkit-transform: scale(.75);
+    background: transparent;
+    position: fixed;
+    z-index: 100;
+}		
+
+.open .navicon:before{
+    -webkit-transform: rotate(45deg);
+    top: 0px;
+    position: fixed;
+    z-index: 100;
+    margin-left: 10px;
+}
+
+.open .navicon:after{
+    -webkit-transform: rotate(-45deg);
+    top: 0px;
+    position: fixed;
+    z-index: 100;margin-left: 10px;
+}
+
+@media (min-width: 400px) and (max-width: 1024px) {
+        .nav ul { 
+            display: none; 
+        }  
+        .navicon {
+            left: 330;
+            top: 100;
+        }
+        .responsive-menu {
+            left: 200;
+            top: 100;
+            background-color: white;
+        }
+        h1 {
+            margin-left: 0px;
+        }
+        .heading {
+            margin-left: 0px;
+        }
+        p#hotels {
+            margin-top: 200px;
+            font-size: 70px;
+        }
+        p#hotels1 {
+            margin-top: 820px;
+            font-size: 70px;
+        }
+        p#hotels2 {
+            margin-top: 1500px;
+            font-size: 70px;
+        }    
+        .oberoi {
+            width: 300px;
+            margin-top: 300px;
+            margin-left: 30px;
+        }
+        .leela {
+            width: 300px;
+            margin-left: 30px;
+            margin-top: 960px;
+        }
+        .rambagh {
+            width: 300px;
+            margin-left: 30px;
+            margin-top: 1650px;
+        }
+        #leela1 {
+            height: 120%;
+        }
+        #oberoi1 {
+            height: 105%;
+        }
+        #rambagh1 {
+            height: 105%;
+        }
+            
+}
+
+
+
+@media (min-width: 500px) {
+        
+    .navicon {
+            display: none;
+        }
+        .responsive-menu {
+            display: none;
+        }
+}

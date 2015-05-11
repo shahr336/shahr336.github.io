@@ -1,0 +1,327 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    margin-top: -40px;
+    z-index: 00;
+}
+
+
+.heading {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	position: fixed;
+	top:50%;
+	left:7%;
+	margin-left:-40px;
+	margin-top:-300px;
+	background-color:black;
+	font-family: 'Lato', sans-serif;
+	font-size: 27px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 200px;
+    z-index: 100;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+    margin-top: 40px;
+    letter-spacing: -2px;
+}
+
+.nav {
+    letter-spacing: 30px;
+    list-style-type: none;
+    margin-left: 210PX;
+    margin-top: 70px; 
+    position: fixed;
+    z-index: 100;  
+}
+
+.nav ul {
+    list-style: none;
+    
+}
+
+.nav li {
+    display: inline-block;
+    display: inline;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px; 
+    word-spacing: 40px;
+    
+}
+
+.nav a:link, .nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #ff5800;
+}
+
+
+h1:hover {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	line-height: 30px;
+    margin-top: 40px;
+    letter-spacing: -2px;
+}
+
+.heading:hover{
+    -webkit-transition: all .2s;
+    transition: all .2s;
+	position: fixed;
+	top:50%;
+	left:7%;
+	margin-left:-40px;
+	margin-top:-300px;
+	background-color:white;
+	font-family: 'Lato', sans-serif;
+	font-size: 27px;
+	color: black;
+	text-align: center;
+	text-transform: capitalize;
+	vertical-align: middle;
+	line-height: 200px;
+    z-index: 100;
+}
+
+/***** TEXT *******/
+
+.wrapper {
+    width: 100%;
+    margin-left: 20%;
+}
+
+
+.first {
+    margin-top: 13%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    width: 63%;
+    padding-TOP: 20px;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
+.second {
+    margin-top: 23.9%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 900px;
+    width: 30%;
+    height: 48%;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.third {
+    margin-top: 23.9%;
+    margin-left: 33.1%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 900px;
+    width: 30%;
+    height: 48%;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+
+/***** MOBILE NAV *******/
+
+.responsive-menu {
+    line-height: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+	display: none;
+    z-index: 5;
+    margin-left: 20px;
+    margin-top: -20px;
+    position: fixed;
+    right: 10px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+}
+ 
+.responsive-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.expand {
+	display: block !important;
+    z-index: 5;
+    text-decoration: none;
+}
+
+.hamburger-cross{
+    display: inline-block;
+    position: relative;
+    padding: 18px 8px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 100;
+    }
+
+.navicon{
+    display: block;
+    width: 40px;
+    border-radius: 2px;
+    position: relative;
+    background: black;
+    height: 5px;
+    -webkit-transition: .5s;
+    position: fixed;
+    z-index: 100;
+    right: 100px;
+    }
+
+.navicon::before, .navicon::after{
+      display: block;
+      width: 40px;
+      border-radius: 2px;
+      position: absolute;
+      background: black;
+      height: 5px;
+      content: "";
+     -webkit-transition: .5s;   
+    }
+
+.navicon:before{
+      top: -12px;
+    }
+
+.navicon:after{
+      top: 12px;
+    }
+    
+.open .navicon{
+    -webkit-transition: all .5s;
+    -webkit-transform: scale(.75);
+    background: transparent;
+    position: fixed;
+    z-index: 100;
+}		
+
+.open .navicon:before{
+    -webkit-transform: rotate(45deg);
+    top: 0px;
+    position: fixed;
+    z-index: 100;
+    margin-left: 10px;
+}
+
+.open .navicon:after{
+    -webkit-transform: rotate(-45deg);
+    top: 0px;
+    position: fixed;
+    z-index: 100;
+    margin-left: 10px;
+}
+
+@media (min-width: 400px) and (max-width: 1024px) {
+    
+        .nav ul { 
+            display: none; 
+        }  
+        .navicon {
+            left: 330;
+            top: 100;
+        }
+        .responsive-menu {
+            left: 200;
+            top: 100;
+            background-color: white;
+        }
+        h1 {
+            margin-left: 0px;
+        }
+        .heading {
+            margin-left: 0px;
+        }
+        #title {
+            font-family: Lato;
+            font-size: 20px;
+            color:  #ff5800;  
+            margin-right: 400px;
+        }
+        p#title span {
+            font-family: Lato;
+            font-size: 20px;
+            color:  #ff5800;  
+            margin-right: 300px;
+        }
+        .first {
+            margin-top: 230px;
+        }
+        .second {
+            margin-top: 580px;
+            width: 251px;
+            padding-bottom: 170px;
+        }
+        .third {
+            margin-top: 1073px;
+            width: 251px;
+            margin-left: 0px;
+            padding-bottom: 120px;
+        }
+        .img {
+            height: 230%;
+        }
+}
+
+
+@media (min-width: 499px) {
+        
+        .navicon {
+                left: 330;
+                top: 100;
+                display: none;
+            }
+        .responsive-menu {
+            left: 200;
+                top: 100;
+                display: none;
+            }
+}
