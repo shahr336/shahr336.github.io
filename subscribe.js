@@ -1,5 +1,21 @@
 $(function(){
     
+    $("#result").hide();
+function myFunction() {
+            $.ajax(
+                {
+                    url: "data.json",
+                    cache:false,
+                    success: function(data){
+                    $("#result").show();                
+                    }
+                }
+                
+            );
+     
+};
+
+    
     function dayClick() {
         if ($("#name").val() == "") {
             $("#error").fadeIn();
@@ -22,13 +38,17 @@ $(function(){
         $(".email").html(email);
                  
         $("#result").fadeIn();  
+        
+        
     }
 
-    $("#result").hide();
     $("#error").hide();
     $("#dayCTA").click(dayClick);
 
 });
+
+
+
 
 
 
